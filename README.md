@@ -1,37 +1,40 @@
 # Eunimart-Tag-Prediction
 <br>
 #Problem Statement :<br>
-Data Field Explanation:
-Id - Unique identifier for each question
-Title - The question’s title
-Body - The body of the question
-Tags - The tags associated with the question in a space-separated format
-Example Data point
-Id : 1
-Title​: How to print Hello World in C language?
-Body ​:
-#include<stdio.h>
-Int main()
-{
-printf(“Hello World”);
-Return 0;
-}
-Tags ​: CTask - 1 : Data Preprocessing
-➢ Remove Duplicate entries
-➢ Separate out code-snippets from Body
-➢ Remove stop words (Except 'C')
-➢ Remove HTML Tags
-➢ Convert all the characters into small letters
-➢ Use SnowballStemmer to stem the words
-Task - 2 : Analysis of Tags
-➢ Total number of unique tags
-➢ Maximum number of tags per question
-➢ Minimum number of tags per question
-➢ Avg. number of tags per question
-➢ Most Frequent Tags
-Task - 3 : Apply suitable model
-➢ Split the data into test and train(80:20)
-
-#CSV
- https://bit.ly/2w8eUdX 
+Data Field Explanation:<br>
+Id - Unique identifier for each question<br>
+Title - The question’s title<br>
+Body - The body of the question<br>
+Tags - The tags associated with the question in a space-separated format<br>
+<br>
+Example Data point<br>
+Id : 1<br>
+Title​: How to print Hello World in C language?<br>
+Body ​:<br>
+#include<stdio.h><br>
+Int main()<br>
+{<br>
+printf(“Hello World”);<br>
+Return 0;<br>
+}<br>
+Tags ​: CTask - 1 : Data Preprocessing<br>
+➢ Remove Duplicate entries<br>
+➢ Separate out code-snippets from Body<br>
+➢ Remove stop words (Except 'C')<br>
+➢ Remove HTML Tags<br>
+➢ Convert all the characters into small letters<br>
+➢ Use SnowballStemmer to stem the words<br>
+<br>
+Task - 2 : Analysis of Tags<br>
+➢ Total number of unique tags<br>
+➢ Maximum number of tags per question<br>
+➢ Minimum number of tags per question<br>
+➢ Avg. number of tags per question<br>
+➢ Most Frequent Tags<br>
+<br>
+Task - 3 : Apply suitable model<br>
+➢ Split the data into test and train(80:20)<br>
+<br>
+#CSV<br>
+ https://bit.ly/2w8eUdX <br>
  Extract the zip file and use it
